@@ -12,3 +12,17 @@ Written a python code to pass in the object which is in the form of full JSON ob
 
 Please find the code in the file named code.py
 
+Code implementation logic : 
+
+As for this this code it is specified to get the value for the object and key we passed,
+
+let's say here obj is dict - {"a":{"b":{"c":"3"}}}
+key is the form of a/b/c
+to get the value we must have keys in the form of list to iterate in the loop
+so we used a splic function here to split at /
+now we will pass that key to this loop 
+if we give a/b it must return {"c":3}
+if we give a/b/c it must return 3
+if we give a key which is not there then it will return none
+
+
