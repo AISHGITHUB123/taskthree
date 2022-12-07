@@ -19,7 +19,7 @@ As for this this code it is specified to get the value for the object and key we
 let's say here obj is dict - {"a":{"b":{"c":"3"}}}
 key is the form of a/b/c
 to get the value we must have keys in the form of list to iterate in the loop
-so we used a splic function here to split at /
+so we used a split function here to split at /
 now we will pass that key to this loop 
 if we give a/b it must return {"c":3}
 if we give a/b/c it must return 3
