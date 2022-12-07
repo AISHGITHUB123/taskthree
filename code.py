@@ -3,7 +3,7 @@ def get_value(obj:dict,key_list:list):
         try:
             obj = obj[key]
         except KeyError:
-            return None #return none if provided object is not found
+            return None #return none if provided key is not found
     return obj
 
 
